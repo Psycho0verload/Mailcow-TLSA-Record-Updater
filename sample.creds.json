@@ -1,0 +1,19 @@
+{
+    "cloudflare_tal": {
+      "TYPE": "CLOUDFLAREAPI",
+      "apikey": "REDACTED",
+      "apiuser": "REDACTED"
+    },
+    "inside": {
+      "TYPE": "BIND",
+      "directory": "inzones",
+      "filenameformat": "db_%T%?_%D"
+    },
+    "hexonet": {
+      "TYPE": "HEXONET",
+      "apilogin": "$HEXONET_APILOGIN",
+      "apipassword": "$HEXONET_APIPASSWORD",
+      "debugmode": "$HEXONET_DEBUGMODE",
+      "domain": "$HEXONET_DOMAIN"
+    }
+  }
